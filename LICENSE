@@ -1,0 +1,28 @@
+LED Badge Firmware License
+Copyright (c) 2026 MarkDasWolf. All rights reserved.
+
+1. Permission to Use
+Permission is granted to download and install the official firmware binaries solely for use with LED Badge hardware authorized by the copyright holder.
+
+2. Restrictions
+Unless expressly permitted in writing, the following activities are prohibited:
+- Redistributing or selling the firmware.
+- Modifying, patching, or distributing altered firmware binaries.
+- Using the firmware on unauthorized hardware.
+- Reverse engineering, decompiling, or disassembling the firmware, except where permitted by mandatory applicable law.
+
+3. Source Code
+The firmware is proprietary software. Its source code is not publicly available.
+No rights to the source code are granted under this license.
+
+4. Updates
+Official firmware updates may be provided through GitHub Releases. The copyright holder reserves the right to modify or discontinue the availability of future updates, subject to applicable law and contractual obligations.
+
+5. Third-Party Components
+Third-party software components remain subject to their respective licenses. Nothing in this license limits rights granted under applicable third-party licenses.
+
+6. Warranty and Liability
+The firmware is provided without additional voluntary warranties, to the extent permitted by applicable law. Mandatory statutory rights remain unaffected.
+
+7. Reservation of Rights
+All rights not expressly granted are reserved by the copyright holder.
