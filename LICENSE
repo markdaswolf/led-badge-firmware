@@ -2,24 +2,27 @@ LED Badge Firmware License
 Copyright (c) 2026 MarkDasWolf. All rights reserved.
 
 1. Permission to Use
-Permission is granted to download and install the official firmware binaries solely for use with LED Badge hardware authorized by the copyright holder.
+Permission is granted to download and install the official firmware binaries solely for personal, non-commercial use with LED Badge hardware authorized by the copyright holder.
 
 2. Restrictions
-Unless expressly permitted in writing, the following activities are prohibited:
-- Redistributing or selling the firmware.
+Unless expressly permitted in writing or in section 5, the following activities are prohibited:
+- Redistributing or selling the firmware or its source code.
+- Using the firmware or its source code, in whole or in part, for any commercial purpose.
+- Copying or reusing the source code, in whole or in part, in other software or projects.
 - Modifying, patching, or distributing altered firmware binaries.
 - Using the firmware on unauthorized hardware.
 - Reverse engineering, decompiling, or disassembling the firmware, except where permitted by mandatory applicable law.
 
 3. Source Code
-The firmware is proprietary software. Its source code is not publicly available.
-No rights to the source code are granted under this license.
+The firmware is proprietary software. Its source code is published with each release solely for transparency and to meet the obligations of the third-party components listed in THIRD_PARTY_NOTICES.md. Publishing the source code does not make the firmware open source.
+No rights to the source code are granted under this license, except those stated in section 5.
 
 4. Updates
 Official firmware updates may be provided through GitHub Releases. The copyright holder reserves the right to modify or discontinue the availability of future updates, subject to applicable law and contractual obligations.
 
 5. Third-Party Components
-Third-party software components remain subject to their respective licenses. Nothing in this license limits rights granted under applicable third-party licenses.
+Third-party software components remain subject to their respective licenses, listed in THIRD_PARTY_NOTICES.md. Nothing in this license limits rights granted under applicable third-party licenses.
+For components licensed under the GNU Lesser General Public License (LGPL), you may, for your own non-commercial use on authorized hardware: modify those components, rebuild the firmware from the published source code with the modified components, install the resulting firmware, and reverse engineer the firmware to the extent necessary to debug such modifications. Section 2 does not restrict these rights.
 
 6. Warranty and Liability
 The firmware is provided without additional voluntary warranties, to the extent permitted by applicable law. Mandatory statutory rights remain unaffected.

@@ -1,6 +1,6 @@
 # LED Badge Firmware
 
-Offizielle Firmware für das LED Badge. Hier gibt es nur die fertigen Firmware-Dateien unter [Releases](https://github.com/markdaswolf/led-badge-firmware/releases), der Quellcode ist nicht öffentlich.
+Offizielle Firmware für das LED Badge. Die Firmware-Dateien gibt es unter [Releases](https://github.com/markdaswolf/led-badge-firmware/releases).
 
 Jedes Release enthält:
 
@@ -8,7 +8,8 @@ Jedes Release enthält:
 | --- | --- |
 | `firmware.bin` | Update über die App |
 | `LED-Badge-vX.Y.Z-full.bin` | Manuelles Flashen per USB |
-| `SHA256SUMS.txt` | Prüfsummen der beiden Dateien |
+| `LED-Badge-vX.Y.Z-source.zip` | Quellcode, siehe [Lizenz](#lizenz) |
+| `SHA256SUMS.txt` | Prüfsummen der Dateien |
 
 ## Update über die App
 
@@ -37,4 +38,6 @@ Unter App → System → **Update-Quelle** lässt sich statt dieses Repositorys 
 
 ## Lizenz
 
-Die Nutzung der Firmware regelt die [LICENSE](LICENSE). Enthaltene Komponenten von Drittanbietern unterliegen weiterhin ihren eigenen Lizenzen.
+Die Firmware ist proprietär und nur für die private, nicht kommerzielle Nutzung auf freigegebener LED-Badge-Hardware lizenziert, siehe [LICENSE](LICENSE). Der Quellcode liegt jedem Release bei, damit die enthaltenen LGPL-Komponenten ausgetauscht werden können. Das macht die Firmware nicht zu Open Source.
+
+Enthaltene Komponenten von Drittanbietern und ihre Lizenzen stehen in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
